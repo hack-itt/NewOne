@@ -5,6 +5,7 @@ import { useHistory } from "react-router-dom";
 import "./register.scss";
 
 export default function Register() {
+  //states
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [username, setUsername] = useState("");
